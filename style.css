@@ -99,6 +99,7 @@ form { }
 input[type=text] { }
 textarea { }
 
+.ui-input-search { width:96% !important; }
 
 } /* END screen media */
 
