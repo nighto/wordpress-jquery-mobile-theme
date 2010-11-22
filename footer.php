@@ -1,13 +1,8 @@
-		<div id="footer">
-			&copy;<?php echo date("Y"); echo " "; bloginfo('name'); ?>
-		</div>
+	</div><!-- data role content-->
 
-	</div>
-
-	<?php wp_footer(); ?>
-	
-	<!-- Don't forget analytics -->
-	
+	<div data-role="footer" class="ui-bar">
+		<a href="#jqm-home" data-role="button" data-icon="arrow-u">Up</a></div>
+		<?php wp_footer(); ?>
+	</div><!-- data role content-->
 </body>
-
 </html>
